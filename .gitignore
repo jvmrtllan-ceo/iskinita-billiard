@@ -1,0 +1,14 @@
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Playwright / screenshot artifacts
+.playwright-mcp/
+*.log
+
+# Node (if ever added)
+node_modules/
