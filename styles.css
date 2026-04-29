@@ -187,6 +187,12 @@ section { padding: 96px 0; }
   color: var(--c-black);
 }
 
+.nav__logo {
+  height: 48px;
+  width: auto;
+  display: block;
+}
+
 .nav__links {
   display: flex;
   gap: 4px;
@@ -360,8 +366,10 @@ section { padding: 96px 0; }
   .ball--cue.ball--float-d { width: 52px; height: 52px; }
 }
 
-/* ---------- About (cards) --------------------------------------------- */
+/* ---------- About / What's here (cards) -------------------------------- */
 .about { background: var(--c-bg-alt); }
+.here  { background: var(--c-bg); }
+.here .card { background: var(--c-bg-alt); }
 
 .cards {
   display: grid;
@@ -616,6 +624,16 @@ section { padding: 96px 0; }
   border-radius: var(--r-pill);
 }
 
+/* Pustahan / no-price variant — name takes the price slot's visual weight */
+.rate-card--no-price .rate-card__name {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  margin-top: 8px;
+  margin-bottom: 28px;
+}
+
 .rates__footnote {
   font-size: 13px;
   color: var(--c-gray);
@@ -796,6 +814,12 @@ section { padding: 96px 0; }
   font-weight: 700;
   font-size: 15px;
   letter-spacing: -0.2px;
+}
+
+.footer__logo {
+  height: 40px;
+  width: auto;
+  display: block;
 }
 
 .footer__links {
